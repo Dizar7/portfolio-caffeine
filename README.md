@@ -97,10 +97,3 @@
 | DevOps | Docker, AWS (ECS, RDS) |
 
 ---
-
-## 실행 방법
-> ※ OAuth/DB/LLM 관련 키는 `.env`로 관리하며, 보안상 레포에는 포함하지 않습니다.
-
-```bash
-# 로컬 실행 (Docker Compose)
-docker-compose up --build
