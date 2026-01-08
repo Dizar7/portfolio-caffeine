@@ -19,7 +19,7 @@
 
 ---
 
-## 👤 My Role & Contributions (상세)
+## My Role & Contributions
 | 영역 | 담당 내용 |
 |------|----------|
 | **Mobile(User App) 프론트엔드** | React Native(Expo)로 로그인/대시보드/거래내역/쿠폰 등 핵심 화면 구현 |
@@ -31,7 +31,7 @@
 
 ---
 
-## ⚙️ 핵심 기능
+## 핵심 기능
 ### 1) 소셜 로그인 (Kakao / Google)
 - Authorization Code Flow 기반 인증(보안/구조 명확화)
 - 백엔드에서 토큰 교환 처리, JWT로 세션 관리
@@ -54,7 +54,7 @@
 
 ---
 
-## 🏗️ 아키텍처
+## 아키텍처
 <img width="3840" height="2160" alt="architecture" src="https://github.com/user-attachments/assets/5a808003-264b-4206-b65d-d551538fda8b" />
 
 
@@ -65,7 +65,7 @@
 
 ---
 
-## 🔧 트러블슈팅
+## 트러블슈팅
 ### 1) OAuth2 redirect_uri 불일치 오류
 | 항목 | 내용 |
 |------|------|
@@ -86,7 +86,7 @@
 
 ---
 
-## 🛠️ 기술 스택
+## 기술 스택
 | 분류 | 기술 |
 |------|------|
 | Frontend | React Native, Expo |
@@ -98,7 +98,7 @@
 
 ---
 
-## 🚀 실행 방법
+## 실행 방법
 > ※ OAuth/DB/LLM 관련 키는 `.env`로 관리하며, 보안상 레포에는 포함하지 않습니다.
 
 ```bash
