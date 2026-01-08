@@ -35,8 +35,17 @@
 ---
 
 ## 🏗️ 아키텍처
-[Frontend] [Backend] [Database] [AI/ML] React Native → FastAPI → PostgreSQL ← XGBoost (Expo) ↓ (AWS RDS) Gemini API JWT 인증 REST API
 
+| Layer | Technology |
+|-------|------------|
+| **Frontend** | React Native (Expo) |
+| **Backend** | FastAPI (Python) |
+| **Database** | PostgreSQL (AWS RDS) |
+| **Auth** | JWT + OAuth2 (Kakao, Google) |
+| **AI/ML** | XGBoost, Gemini API |
+| **Deploy** | Docker, AWS ECS |
+
+### 데이터 흐름
 
 **배포**: AWS ECS + RDS + Docker Compose
 
