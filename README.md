@@ -97,3 +97,5 @@
 | DevOps | Docker, AWS (ECS, RDS) |
 
 ---
+
+※ 본 저장소는 포트폴리오 요약용 README 입니다.
