@@ -47,7 +47,7 @@
 
 ### 데이터 흐름
 
-User App (React Native) ↓ REST API FastAPI Backend (JWT 인증) ↓ PostgreSQL (AWS RDS) ↓ XGBoost 예측 / Gemini API 분석
+`User App` → `FastAPI` → `PostgreSQL` → `XGBoost / Gemini API`
 
 **배포**: AWS ECS + RDS + Docker Compose
 
